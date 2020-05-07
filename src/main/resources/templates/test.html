@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>内嵌框架</title>
+</head>
+<style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .test{
+            width: 1000px;
+            height: 1000px;
+            margin: 0 auto;
+        }
+        .test ul{
+            list-style: none;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+        }
+        .test ul li{
+            width: 100px;
+            float: left;
+            text-align: center;
+        }
+        .test p{
+            display: block;
+            cursor: pointer;
+        }
+        .box{
+            width: 1000px;
+            height: 300px;
+            background-color: transparent;
+            clear: both;
+        }
+        #box1{
+            background: transparent;
+        }
+        #box2{
+            background: #F4FD53;
+            display: none;
+
+        }
+        #box3{
+            background: #FD7253;
+            display: none;
+        }
+        .test p:hover{
+            background: #4874FF;
+        }
+        .btn1{
+            background: : #5C47F3;
+            display: block;
+        }
+        .btn2{
+            background: #4874FF;
+            display: block;
+        }
+    </style>
+
+<body>
+
+    <div class="test">
+        <ul>
+            <li><p id="1" class="btn2">导航一</p></li>
+            <li><p id="2" class="btn1">导航二</p></li>
+            <li><p id="3" class="btn1">导航三</p></li>
+        </ul>
+        <div class="box" id="box1"><iframe name="topFrame" scrolling="auto" border="1" src="tables.html" height="600px" width="100%">
+        </iframe></div>
+        <div class="box" id="box2"><iframe name="topFrame" scrolling="auto" border="1" src="http://www.sina.com" height="600px" width="100%">
+        </iframe></div>
+        <div class="box" id="box3">这是第三个导航显示的内容</div>
+    </div>
+    
+     <script type="text/javascript">
+
+        window.onload = function(){
+            var arr = document.getElementsByTagName('p');
+            for(var i = 0;i<arr.length;i++){
+                arr[i].onclick = function(){
+                    if (this.id == '1' )
+                    {
+                        document.getElementById("box1").style.display = 'block' ;
+                        document.getElementById("box2").style.display = 'none' ;
+                        document.getElementById("box3").style.display = 'none' ;
+                    }
+                    else if(this.id == '2')
+                    {
+                        document.getElementById("box1").style.display = 'none' ;
+                        document.getElementById("box2").style.display = 'block' ;
+                        document.getElementById("box3").style.display = 'none' ;
+                    }
+                    else{
+                        document.getElementById("box1").style.display = 'none' ;
+                        document.getElementById("box2").style.display = 'none' ;
+                        document.getElementById("box3").style.display = 'block' ;
+                    }
+                    //this是当前激活的按钮，在这里可以写对应的操作
+                    if(this.className == 'btn1'){
+                        this.className = 'btn2';
+                        var name = this.id;
+                        var btn = document.getElementsByClassName('btn2');
+                        for(var j=0;j<btn.length;j++){
+                            if(btn[j].id!=name){
+                                btn[j].className = 'btn1';
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+</body>
+</html>

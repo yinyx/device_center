@@ -1,0 +1,152 @@
+2020-05-07 09:32:02 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 15432 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 09:32:02 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 09:32:02 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 09:32:08 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 7.115 seconds (JVM running for 10.835)
+2020-05-07 09:34:11 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 17368 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 09:34:11 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 09:34:11 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 09:34:16 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 5.471 seconds (JVM running for 7.038)
+2020-05-07 09:35:16 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 19416 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 09:35:16 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 09:35:16 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 09:35:20 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 5.333 seconds (JVM running for 7.108)
+2020-05-07 09:40:33 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 11196 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 09:40:33 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 09:40:33 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 09:40:36 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.318 seconds (JVM running for 4.824)
+2020-05-07 09:41:11 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 3688 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 09:41:11 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 09:41:11 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 09:41:14 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.392 seconds (JVM running for 6.097)
+2020-05-07 09:44:42 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 5080 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 09:44:42 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 09:44:42 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 09:44:45 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.78 seconds (JVM running for 5.685)
+2020-05-07 09:55:34 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 1896 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 09:55:34 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 09:55:34 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 09:55:37 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.474 seconds (JVM running for 5.02)
+2020-05-07 09:59:23 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 1916 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 09:59:23 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 09:59:23 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 09:59:25 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.481 seconds (JVM running for 5.334)
+2020-05-07 10:00:11 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 7448 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:00:11 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:00:11 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:00:15 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 4.5 seconds (JVM running for 6.824)
+2020-05-07 10:01:04 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 16392 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:01:04 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:01:04 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:01:07 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.851 seconds (JVM running for 5.406)
+2020-05-07 10:02:08 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 14372 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:02:08 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:02:08 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:02:11 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.362 seconds (JVM running for 4.923)
+2020-05-07 10:02:51 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 9476 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:02:51 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:02:51 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:02:54 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.066 seconds (JVM running for 4.457)
+2020-05-07 10:03:48 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 224 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:03:48 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:03:48 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:03:50 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.476 seconds (JVM running for 4.888)
+2020-05-07 10:04:22 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 4272 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:04:22 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:04:22 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:04:25 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.501 seconds (JVM running for 5.135)
+2020-05-07 10:05:07 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 12608 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:05:07 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:05:07 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:05:09 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.136 seconds (JVM running for 4.651)
+2020-05-07 10:05:49 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 8512 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:05:49 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:05:49 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:05:52 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.262 seconds (JVM running for 4.674)
+2020-05-07 10:06:25 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 13476 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:06:25 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:06:25 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:06:29 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 4.555 seconds (JVM running for 6.04)
+2020-05-07 10:06:44 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 7984 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:06:44 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:06:44 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:06:47 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.111 seconds (JVM running for 5.361)
+2020-05-07 10:07:43 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 12720 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:07:43 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:07:43 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:07:46 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 4.152 seconds (JVM running for 6.656)
+2020-05-07 10:08:51 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 13712 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:08:51 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:08:51 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:08:54 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.082 seconds (JVM running for 5.079)
+2020-05-07 10:10:45 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 1484 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:10:45 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:10:45 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:10:48 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.791 seconds (JVM running for 5.641)
+2020-05-07 10:12:07 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 12888 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:12:07 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:12:07 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:12:10 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.812 seconds (JVM running for 6.078)
+2020-05-07 10:14:44 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 6736 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:14:44 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:14:44 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:14:46 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 2.927 seconds (JVM running for 5.507)
+2020-05-07 10:21:10 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 19188 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 10:21:10 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 10:21:10 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 10:21:12 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.391 seconds (JVM running for 5.487)
+2020-05-07 18:20:48 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 20168 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:20:48 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:20:48 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:20:53 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 5.903 seconds (JVM running for 8.23)
+2020-05-07 18:21:59 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 5744 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:21:59 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:21:59 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:22:04 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 6.073 seconds (JVM running for 8.9)
+2020-05-07 18:24:02 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 16544 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:24:02 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:24:02 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:24:06 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 6.101 seconds (JVM running for 10.371)
+2020-05-07 18:25:10 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 10996 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:25:10 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:25:10 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:25:14 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 6.163 seconds (JVM running for 10.95)
+2020-05-07 18:26:10 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 19236 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:26:10 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:26:10 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:26:14 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 5.212 seconds (JVM running for 8.762)
+2020-05-07 18:26:41 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 20084 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:26:41 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:26:41 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:26:43 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.464 seconds (JVM running for 5.388)
+2020-05-07 18:27:04 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 19056 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:27:04 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:27:04 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:27:06 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.354 seconds (JVM running for 5.589)
+2020-05-07 18:28:21 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 2996 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:28:21 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:28:21 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:28:23 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.403 seconds (JVM running for 5.64)
+2020-05-07 18:30:30 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 660 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:30:30 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:30:30 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:30:33 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.459 seconds (JVM running for 5.492)
+2020-05-07 18:33:11 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 19700 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:33:11 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:33:11 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:33:14 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 4.602 seconds (JVM running for 6.756)
+2020-05-07 18:33:45 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 2372 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:33:45 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:33:45 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:33:48 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.818 seconds (JVM running for 6.109)
+2020-05-07 18:57:25 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 17600 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:57:25 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:57:25 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:57:29 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 5.052 seconds (JVM running for 8.151)
+2020-05-07 18:58:37 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 14424 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:58:37 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:58:37 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:58:40 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 3.702 seconds (JVM running for 5.808)
+2020-05-07 18:58:57 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Starting DeviceCenterApplication on LAPTOP-26S97N14 with PID 17228 (D:\eclipse-workspace\device_center\target\classes started by yinyx in D:\eclipse-workspace\device_center)
+2020-05-07 18:58:57 [restartedMain] DEBUG com.nari.device_center.DeviceCenterApplication -Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-05-07 18:58:57 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -No active profile set, falling back to default profiles: default
+2020-05-07 18:59:01 [restartedMain] INFO  com.nari.device_center.DeviceCenterApplication -Started DeviceCenterApplication in 5.265 seconds (JVM running for 6.923)

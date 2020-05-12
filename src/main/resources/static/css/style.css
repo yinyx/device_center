@@ -2043,7 +2043,7 @@ a.list-group-item.active > .badge,
     
     /* Sidebar */
     .side-menu > li > a:hover, .side-menu > li.active > a, .side-menu > li > a.active:hover, .side-menu > li.hovered > a {
-        background-color: rgba(0,0,0,0.95);
+        background-color: rgba(65,105,225,0.6);
         color: #fff;
         opacity: 1;
     }
@@ -2116,6 +2116,10 @@ a.list-group-item.active > .badge,
     
     #sidebar .side-menu > li > a {
         width: 100%;
+        text-align: center;
+        line-height: 45px;
+        font-size: 15px;
+        margin-bottom: 10px;
     }
     
     .side-menu .menu-item {
@@ -2333,7 +2337,7 @@ a.list-group-item.active > .badge,
     }
     
     .side-menu > li > a {
-        opacity: 1;
+        opacity: 0.5;
     }
     
     .side-menu .menu-item {

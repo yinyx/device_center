@@ -18,9 +18,29 @@ public class WebSkipController {
         return "index";
     }
 
-    @GetMapping(value = "/keyInfo")
-    public String keyInfo(){
-        return "KPI/keyInfo";
+    @GetMapping(value = "/faultDetect_index")
+    public String faultDetectIndex(){
+        return "faultDetect/faultDetect_index";
+    }
+
+    @GetMapping(value = "/faultDetect_heartbeat")
+    public String faultDetectHea(){
+        return "faultDetect/deviceControl/faultDetect_heartbeat";
+    }
+
+    @GetMapping(value = "/faultDetect_communicate")
+    public String faultDetectCom(){
+        return "faultDetect/deviceControl/faultDetect_communicate";
+    }
+
+    @GetMapping(value = "/faultDetect_workstate")
+    public String faultDetectWor(){
+        return "faultDetect/deviceControl/faultDetect_workstate";
+    }
+
+    @GetMapping(value = "/login")
+    public String login(){
+        return "USER/login";
     }
 
 }

@@ -7,7 +7,7 @@
         <title>可视化数据平台</title>
         <!-- CSS -->
         <link rel="stylesheet" type="text/css" href="js/library/bootstrap/bootstrap-3.3.4.css">
-        <link rel="stylesheet" type="text/css" href="js/font-awesome.4.6.0.css">
+        <link rel="stylesheet" type="text/css" href="js/tool/font-awesome.4.6.0.css">
         <link href="css/animate.min.css" rel="stylesheet">
         <link href="css/form.css" rel="stylesheet">
         <link href="css/calendar.css" rel="stylesheet">
@@ -69,14 +69,13 @@
                     </div>     
                 <div style="position: absolute;right:20px"> 
 					<!-- 登录显示  -->
-                    <li class="dropdown dropdown-user"><a href="javascript:"
-                        class="dropdown-toggle" data-toggle="dropdown"
-                        data-hover="dropdown" data-close-others="true"> <img id="avatarIndex" alt=""
-                            class="img-circle"
-                            src="../static/Img/icon/avatar.png"  width="30px"/>
+                    <li class="dropdown dropdown-user">
+                        <a href="javascript:" class="dropdown-toggle" data-toggle="dropdown"
+                        data-hover="dropdown" data-close-others="true">
+                            <img id="avatarIndex" alt="" class="img-circle" src="Img/icon/avatar.png"  width="30px"/>
                             <span class="username username-hide-on-mobile" id="avatarNameId"> -- </span>
                              <i class="fa fa-angle-down"></i>
-                    </a>
+                        </a>
                         <ul class="dropdown-menu" style="width:50%;">
                             <li class="divider" ></li>
                             <li>
@@ -202,15 +201,6 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="tile">
-                        <h2 class="tile-title">系统导航</h2>
-                        <div class="list-group list-group-flat m-t-15">
-                            <a href="#" class="list-group-item"><span class="message-tag progress-bar-warning"></span>办公自动化OA系统</a>
-                            <a href="#" class="list-group-item"><span class="message-tag progress-bar-danger"></span>财务管理系统</a>
-                            <a href="#" class="list-group-item"><span class="message-tag progress-bar-info"></span>机房管理系统</a>
-                            <a href="#" class="list-group-item"><span class="message-tag progress-bar-success"></span>空调管理系统</a>
-                        </div>
-                    </div>
 
                 </div>
                 
@@ -222,8 +212,8 @@
                         </a>
                     </li>
                     <li>
-                        <a class="sa-side-typography" href="keyInfo">
-                            <span class="menu-item">KPI</span>
+                        <a class="sa-side-typography" href="faultDetect_index">
+                            <span class="menu-item">故障诊断</span>
                         </a>
                     </li>
                     <li>
@@ -252,7 +242,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="sa-side-calendar" href="userMng.html">
+                        <a class="sa-side-calendar" href="USER/userMng.html">
                             <span class="menu-item">用户管理</span>
                         </a>
                     </li>
@@ -835,12 +825,12 @@
                                         </div>
                                     </div>
 
-                                    <img src="img/mapmaker.png" alt="info" class="info-icon info-icon1" data-target="pop1"  />
-                                    <img src="img/mapmaker.png" alt="info" class="info-icon info-icon2" data-target="pop2"  />
-                                    <img src="img/mapmaker.png" alt="info" class="info-icon info-icon3" data-target="pop3"  />
-                                    <img src="img/mapmaker.png" alt="info" class="info-icon info-icon4" data-target="pop4"  />
+                                    <img src="../static/Img/mapmaker.png" alt="info" class="info-icon info-icon1" data-target="pop1"  />
+                                    <img src="../static/Img/mapmaker.png" alt="info" class="info-icon info-icon2" data-target="pop2"  />
+                                    <img src="../static/Img/mapmaker.png" alt="info" class="info-icon info-icon3" data-target="pop3"  />
+                                    <img src="../static/Img/mapmaker.png" alt="info" class="info-icon info-icon4" data-target="pop4"  />
                                     <!--<embed style="z-index: 9999;" class="info-icon info-icon5" align=center src=img/swf/Red_glow.swf type=application/x-shockwave-flash wmode="transparent" quality="high" ;> </embed>-->
-                                    <img src="img/qinghai.png" alt="" class="largeimage">
+                                    <img src="../static/Img/qinghai.png" alt="" class="largeimage">
 
                                 </div>
                             </div>
@@ -1121,7 +1111,7 @@
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal" onclick="cancelModifyWavePassword()">取消</button>
-                    <button type="submit" class="btn btn-primary" id="" disabled>保存</button>
+                    <button type="submit" class="btn btn-primary"  disabled>保存</button>
                 </div>
             </form>
         </div>
@@ -1176,75 +1166,41 @@
         <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script> <!-- jQuery Library -->
         <script src="http://www.jq22.com/jquery/jquery-ui-1.11.0.js"></script> <!-- jQuery UI -->
         <script src="js/library/jquery/jquery.easing.1.3.js"></script> <!-- jQuery Easing - Requirred for Lightbox + Pie Charts-->
-
         <!-- Bootstrap -->
         <script src="http://www.jq22.com/jquery/bootstrap-3.3.4.js"></script>
-
         <!-- Charts -->
         <script src="js/charts/jquery.flot.js"></script> <!-- Flot Main -->
         <script src="js/charts/jquery.flot.time.js"></script> <!-- Flot sub -->
         <script src="js/charts/jquery.flot.animator.min.js"></script> <!-- Flot sub -->
         <script src="js/charts/jquery.flot.resize.min.js"></script> <!-- Flot sub - for repaint when resizing the screen -->
-
-        <script src="js/sparkline.min.js"></script> <!-- Sparkline - Tiny charts -->
-        <script src="js/easypiechart.js"></script> <!-- EasyPieChart - Animated Pie Charts -->
-        <script src="js/charts.js"></script> <!-- All the above chart related functions -->
-
+        <script src="js/tool/sparkline.min.js"></script> <!-- Sparkline - Tiny charts -->
+        <script src="js/tool/easypiechart.js"></script> <!-- EasyPieChart - Animated Pie Charts -->
+        <script src="js/tool/charts.js"></script> <!-- All the above chart related functions -->
         <!-- Map -->
         <script src="js/maps/jvectormap.min.js"></script> <!-- jVectorMap main library -->
         <script src="js/maps/usa.js"></script> <!-- USA Map for jVectorMap -->
-
         <!--Media Player-->
-        <script src="js/media-player.min.js"></script> <!-- USA Map for jVectorMap -->
-
+        <script src="js/tool/media-player.min.js"></script> <!-- USA Map for jVectorMap -->
         <!--  Form Related -->
-        <script src="js/icheck.js"></script> <!-- Custom Checkbox + Radio -->
-
+        <script src="js/tool/icheck.js"></script> <!-- Custom Checkbox + Radio -->
         <!-- UX -->
-        <script src="js/scroll.min.js"></script> <!-- Custom Scrollbar -->
-
+        <script src="js/tool/scroll.min.js"></script> <!-- Custom Scrollbar -->
 		<!-- 获取根路径 -->
-		<script src="../js/common/util/jqueryUtil.js" type="text/javascript"></script>
-
-
+		<script src="js/common/util/jqueryUtil.js" type="text/javascript"></script>
         <!-- Other -->
-        <script src="js/calendar.min.js"></script> <!-- Calendar -->
+        <script src="js/tool/calendar.min.js"></script> <!-- Calendar -->
         <!--<script src="js/feeds.min.js"></script> &lt;!&ndash; News Feeds &ndash;&gt;-->
         <!--HotSpot of pic-->
-        <script src="js/modernizr.custom.49511.js"></script>
+        <script src="js/tool/modernizr.custom.49511.js"></script>
         <script src="js/library/jquery/jquery.hotspot.min.js"></script>
-
         <!-- All JS functions -->
-        <script src="../js/functions.js"  type="text/javascript"></script>
-        <script src="../js/common/index.js" type="text/javascript"></script>
-
+        <script src="js/tool/functions.js"  type="text/javascript"></script>
+        <script src="js/common/index.js" type="text/javascript"></script>
 		<!-- jquery cookie -->
-        <script src="../js/library/jquery.cookie.js" type="text/javascript"></script>
-        <script src="../js/common/function.js" type="text/javascript"></script>
+        <script src="js/library/jquery.cookie.js" type="text/javascript"></script>
+        <script src="js/common/function.js" type="text/javascript"></script>
+        <script src="js/index.js" type="text/javascript"></script>
 
-        <script type="text/javascript">
-            $(document).ready(function(){
-                $(".c1").animate({
-                    height: "70%"
-                },1000);
-                $(".c2").animate({
-                    height: "50%"
-                },1000)
-                $(".c3").animate({
-                    height: "33%"
-                },1000)
-                $(".c4").animate({
-                    height: "23%"
-                },1000)
-                $(".c5").animate({
-                    height: "13%"
-                },1000)
-                $('#container1').hotSpot({
-                    slideshow : true,
-                    triggerBy : 'click',
-                    autoHide : true});
-            })
-        </script>
 
     </body>
 </html>

@@ -1,0 +1,196 @@
+<html lang="zh-CN" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta charset="UTF-8">
+    <meta name="description" content="Violate Responsive Admin Template">
+    <meta name="keywords" content="Super Admin, Admin, Template, Bootstrap">
+    <title>移动能效管理平台</title>
+    <!-- CSS -->
+    <link th:href="@{/js/library/bootstrap/bootstrap-3.3.4.css}" rel="stylesheet">
+    <link th:href="@{/css/animate.min.css}" href="../../../static/css/animate.min.css" rel="stylesheet">
+    <link th:href="@{/js/tool/font-awesome.4.6.0.css}" href="../../../static/js/tool/font-awesome.4.6.0.css" rel="stylesheet">
+    <link th:href="@{/css/form.css}" rel="stylesheet">
+    <link th:href="@{/css/media-player.css}" rel="stylesheet">
+    <link th:href="@{/css/calendar.css}" rel="stylesheet">
+    <link th:href="@{/css/style.css}" rel="stylesheet">
+    <link th:href="@{/css/icons.css}" rel="stylesheet">
+    <link th:href="@{/css/generics.css}" rel="stylesheet">
+    <link th:href="@{/css/jquery.hotspot.css}" rel="stylesheet">
+    <link th:href="@{/css/faultDetect/faultDetect_index.css}" rel="stylesheet">
+    <!-- 列表datatable -->
+    <link th:href="@{/js/library/metronic-4.7/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker3.min.css}" rel="stylesheet" type="text/css" />
+    <link th:href="@{/js/library/metronic-4.7/assets/global/plugins/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css}"  rel="stylesheet" type="text/css" />
+    <!-- datatable -->
+    <link th:href="@{/js/library/metronic-4.7/assets/global/plugins/datatables/datatables.min.css}" rel="stylesheet" type="text/css" />
+    <!-- datatable bootstrap-->
+    <link th:href="@{/js/library/metronic-4.7/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css}"  rel="stylesheet" type="text/css" />
+    <link th:href="@{/css/menu.css}" rel="stylesheet">
+</head>
+<body id="skin-blur-blue">
+<header id="header" class="media">
+    <a href="" id="menu-toggle"></a>
+    <a class="logo pull-left" href="index">分布式故障诊断系统</a>
+
+    <div class="media-body">
+        <div class="media" id="top-menu">
+            <div class="pull-left tm-icon">
+                <a data-drawer="messages" class="drawer-toggle" href="">
+                    <i class="sa-top-device-01"></i>
+                    <span>设备管理</span>
+                </a>
+            </div>
+            <div class="pull-left tm-icon">
+                <a data-drawer="notifications" class="drawer-toggle" href="">
+                    <i class="sa-top-wave"></i>
+                    <span>波形诊断</span>
+                </a>
+            </div>
+
+
+            <div id="time" class="pull-right">
+                <span id="hours"></span>
+                :
+                <span id="min"></span>
+                :
+                <span id="sec"></span>
+            </div>
+
+            <div class="media-body">
+                <label>
+                    <input type="text" class="main-search">
+                </label>
+            </div>
+        </div>
+    </div>
+</header>
+
+<div class="clearfix"></div>
+
+<section id="main" class="p-relative" role="main">
+
+    <!-- Sidebar -->
+    <aside id="sidebar">
+
+        <ul class="list-unstyled side-menu" style="width: 100%!important;padding-top: 20px;">
+            <li>
+                <a href="faultDetect_communicate" class="bar-back-color">
+                    <i class="fa fa-calendar-o"></i><span> 通信状态 </span>
+                </a>
+            </li>
+            <li>
+                <a href="faultDetect_heartbeat">
+                    <i class="fa fa-eye"></i><span> 心跳数据 </span>
+                </a>
+            </li>
+            <li>
+                <a href="faultDetect_workstate">
+                    <i class="fa fa-bar-chart-o"></i><span> 工况数据 </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-sort-amount-asc"></i><span> 参数属性 </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa  fa-money"></i><span> 参数维护 </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-briefcase"></i><span> 自检信息 </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <i class="fa fa-building-o"></i><span> 命令状态 </span>
+                </a>
+            </li>
+        </ul>
+    </aside>
+
+    <!-- Content -->
+    <section id="content" class="container">
+        <ol class="breadcrumb hidden-xs">
+            <li><a href="index">首页</a></li>
+            <li><a href="faultDetect_index">故障诊断</a></li>
+            <li class="active">通信状态</li>
+        </ol>
+        <h4 class="page-title">通信状态</h4>
+
+        <div class="row">
+            <div class="col-md-12" style="margin:20px 10px">
+                <div class="col-md-2">
+                    <label class="label label-default">&nbsp;所属厂家：</label>
+                        <select class="form-control">
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label class="label label-default">&nbsp;所属线路：</label>
+                        <select  class="form-control">
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label class="label label-default">&nbsp;通信状态：</label>
+                    <select  class="form-control">
+                    </select>
+                </div>
+                <div class="col-md-2" >
+                    <label class="label label-default"  data-target="startDate">装置标识:</label>
+                    <input class="form-control" style="float:left"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="block-area" id="responsiveTable">
+            <!--<h3 class="block-title">故障检测</h3>-->
+            <div class="table-responsive overflow">
+                <table class="table tile" id="communicateTable">
+                </table>
+            </div>
+        </div>
+    </section>
+</section>
+<!-- Javascript Libraries -->
+<!-- jQuery -->
+<script th:src="@{/js/library/jquery/jquery-1.8.3.min.js}" type="text/javascript"></script> <!-- jQuery Library -->
+<script th:src="@{/js/library/jquery/jquery-ui.min.js}" type="text/javascript"></script> <!-- jQuery UI -->
+<script th:src="@{/js/library/jquery/jquery.easing.1.3.js}" type="text/javascript"></script>
+<!-- jQuery Easing - Requirred for Lightbox + Pie Charts-->
+<!-- Bootstrap -->
+<script th:src="@{/js/library/bootstrap/bootstrap.js}" type="text/javascript"></script>
+<!-- Charts -->
+<script th:src="@{/js/charts/jquery.flot.js}" type="text/javascript"></script> <!-- Flot Main -->
+<script th:src="@{/js/charts/jquery.flot.time.js}" type="text/javascript"></script> <!-- Flot sub -->
+<script th:src="@{/js/charts/jquery.flot.animator.min.js}" type="text/javascript"></script> <!-- Flot sub -->
+<script th:src="@{/js/charts/jquery.flot.resize.min.js}" type="text/javascript"></script>
+<!-- Flot sub - for repaint when resizing the screen -->
+<script th:src="@{/js/tool/sparkline.min.js}" type="text/javascript"></script> <!-- Sparkline - Tiny charts -->
+<script th:src="@{/js/tool/easypiechart.js}" type="text/javascript"></script> <!-- EasyPieChart - Animated Pie Charts -->
+<script th:src="@{/js/tool/charts.js}" type="text/javascript"></script> <!-- All the above chart related functions -->
+<!-- Map -->
+<script th:src="@{/js/maps/jvectormap.min.js}" type="text/javascript"></script> <!-- jVectorMap main library -->
+<script th:src="@{/js/maps/usa.js}" type="text/javascript"></script> <!-- USA Map for jVectorMap -->
+<!--  Form Related -->
+<script th:src="@{/js/tool/icheck.js}" type="text/javascript"></script> <!-- Custom Checkbox + Radio -->
+<!--Media Player-->
+<script th:src="@{/js/tool/media-player.min.js}" type="text/javascript"></script> <!-- USA Map for jVectorMap -->
+<!-- UX -->
+<script th:src="@{/js/tool/scroll.min.js}" type="text/javascript"></script> <!-- Custom Scrollbar -->
+<!-- Other -->
+<script th:src="@{/js/tool/calendar.min.js}" type="text/javascript"></script> <!-- Calendar -->
+<script th:src="@{/js/tool/feeds.min.js}" type="text/javascript"></script> <!-- News Feeds -->
+<!-- All JS functions -->
+<script th:src="@{/js/tool/functions.js}" type="text/javascript"></script>
+<!--common.js-->
+<script th:src="@{/js/common/common.js}" type="text/javascript" ></script>
+<!-- datatables -->
+<script th:src="@{/js/library/metronic-4.7/assets/global/plugins/datatables/datatables.min.js}"  type="text/javascript"></script>
+<!-- datatables bootstrap -->
+<script th:src="@{/js/library/metronic-4.7/assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.js}" type="text/javascript"></script>
+<!--页面主JS-->
+<script th:src="@{/js/faultDetect/deviceControl/faultDetect_communicate.js}" type="text/javascript" ></script>
+</body>
+</html>

@@ -49,6 +49,9 @@
 .sa-top-listen { background-image: url(../img/icon/listen.png); }
 .sa-top-alert { background-image: url(../img/icon/alert.png); }
 .sa-top-device { background-image: url(../img/icon/device.png); }
+.sa-top-device-01 { background-image: url(../img/icon/device-01.png); }
+.sa-top-wave { background-image: url(../img/icon/wave.png); }
+
 /* Editor */
 [class*="editor-"] {
    width: 13px;
@@ -138,6 +141,8 @@ only screen and (                min-resolution: 1.25dppx) {
     .sa-top-listen { background-image: url(../img/icon/listen.png); background-size: 25px 25px; }
     .sa-top-device { background-image: url(../img/icon/device.png); background-size: 25px 25px; }
     .sa-top-alert { background-image: url(../img/icon/alert.png); background-size: 25px 25px; }
+    .sa-top-device-01 { background-image: url(../img/icon/device-01.png); background-size: 35px 35px;}
+    .sa-top-wave { background-image: url(../img/icon/wave.png); background-size: 25px 25px;}
 
     /* Editor */
     .editor-text { background-image: url(../img/editor/text@2x.png); background-size: 11px 13px; }

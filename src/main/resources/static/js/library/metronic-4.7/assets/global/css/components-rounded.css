@@ -6498,7 +6498,7 @@ Custom color buttons
     width: 300px !important; } }
 
 .input-inline {
-  display: inline-block;
+  display: inline;
   width: auto;
   vertical-align: middle; }
 
